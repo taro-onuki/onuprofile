@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125" height="125" viewBox="0 0 125 125">
+  <g id="ico_feature_html" transform="translate(-621 -1599)">
+    <g id="python_4_" data-name="python (4)" transform="translate(621 1599)" stroke="#fff" stroke-width="5">
+      <circle cx="62.5" cy="62.5" r="62.5" stroke="none"/>
+      <circle cx="62.5" cy="62.5" r="60" fill="none"/>
+    </g>
+    <g id="グループ_46" data-name="グループ 46" transform="translate(-14.304 3)">
+      <g id="coding" transform="translate(653.068 1624.24)">
+        <g id="グループ_27" data-name="グループ 27" transform="translate(62.764 10.405)">
+          <g id="グループ_26" data-name="グループ 26">
+            <path id="パス_40" data-name="パス 40" d="M381.98,134.591l-20.922-22.165a3.392,3.392,0,1,0-4.934,4.657l18.724,19.836-18.724,19.838a3.393,3.393,0,0,0,4.934,4.659l20.921-22.167A3.394,3.394,0,0,0,381.98,134.591Z" transform="translate(-355.199 -111.361)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="グループ_29" data-name="グループ 29" transform="translate(0 10.405)">
+          <g id="グループ_28" data-name="グループ 28" transform="translate(0 0)">
+            <path id="パス_41" data-name="パス 41" d="M26.782,156.755,8.059,136.918l18.723-19.837a3.393,3.393,0,0,0-4.935-4.657L.926,134.589a3.394,3.394,0,0,0,0,4.658l20.923,22.167a3.393,3.393,0,0,0,4.934-4.659Z" transform="translate(-0.001 -111.36)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="グループ_31" data-name="グループ 31" transform="translate(36.866 0)">
+          <g id="グループ_30" data-name="グループ 30">
+            <path id="パス_42" data-name="パス 42" d="M222.494,52.516a3.4,3.4,0,0,0-3.867,2.842L208.676,120.5a3.393,3.393,0,0,0,2.842,3.867,3.493,3.493,0,0,0,.517.039,3.394,3.394,0,0,0,3.35-2.88l9.952-65.139A3.393,3.393,0,0,0,222.494,52.516Z" transform="translate(-208.636 -52.478)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
