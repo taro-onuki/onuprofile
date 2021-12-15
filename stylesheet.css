@@ -79,7 +79,7 @@ header > .container{
   height: 20px;
   background-size: contain;
   background-position:center center ;
-  background-image: url(../html/img/ico/ico_mail.jpg);
+  background-image: url(/img/ico/ico_mail.jpg);
   position: absolute;
   top: 50%;
   left: 20px;
@@ -88,7 +88,7 @@ header > .container{
 
 /*トップ*/
 .area_top_view{
-  background-image: url(../html/img/bg/bg_view2.jpg);
+  background-image: url(/img/bg/bg_view2.jpg);
   background-size: cover;
   background-position: center center;
 }
