@@ -88,7 +88,7 @@ header > .container{
 
 /*トップ*/
 .area_top_view{
-  background-image: url(img/bg/bg_view2.jpg);
+  background-image: url(onuprofile/img/bg/bg_view2.jpg);
   background-size: cover;
   background-position: center center;
 }
