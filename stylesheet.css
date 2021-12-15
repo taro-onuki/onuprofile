@@ -79,7 +79,7 @@ header > .container{
   height: 20px;
   background-size: contain;
   background-position:center center ;
-  background-image: url(img/ico/ico_mail.jpg);
+  background-image: url(img/ico/ico_mail.jpg)
   position: absolute;
   top: 50%;
   left: 20px;
