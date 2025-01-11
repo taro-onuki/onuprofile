@@ -1,32 +1,33 @@
 @charset "utf-8";
-html { 
+
+html {
   scroll-behavior: smooth;
 }
 
-a{
+a {
   color: #000;
   text-decoration: none;
 }
 
-li{
+li {
   list-style: none;
 }
 
-.container  {
+.container {
   max-width: 1160px;
   padding: 0 0 60px 0;
   margin: 0 auto;
 }
 
 /*ヘッダー*/
-header{
+header {
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
 }
 
-header > .container{
+header>.container {
   height: 100px;
   display: flex;
   align-items: center;
@@ -35,23 +36,24 @@ header > .container{
 }
 
 /*ヘッダーナビ*/
-.nav_header{
-  margin:0 0 0 auto; /*右に配置*/
+.nav_header {
+  margin: 0 0 0 auto;
+  /*右に配置*/
 }
 
-.list_nav_header{
+.list_nav_header {
   display: flex;
   align-items: center;
   margin: 0 -15px;
 }
 
-.list_nav_header > li{
-  padding:0 15px;
+.list_nav_header>li {
+  padding: 0 15px;
 }
 
-.list_nav_header a{
+.list_nav_header a {
   color: white;
-  font: 500 18px/1em 'futura PT','noto sans japanese',sans-serif;
+  font: 500 18px/1em 'futura PT', 'noto sans japanese', sans-serif;
 }
 
 /*.btn_ico_mail{
@@ -63,7 +65,7 @@ header > .container{
   position: relative;
 }*/
 
-.btn_ico_mail{
+.btn_ico_mail {
   background-color: #849ba1;
   display: flex;
   align-items: center;
@@ -72,13 +74,13 @@ header > .container{
   position: relative;
 }
 
-.btn_ico_mail:before{
-  content:"";
+.btn_ico_mail:before {
+  content: "";
   display: block;
   width: 20px;
   height: 20px;
   background-size: contain;
-  background-position:center center ;
+  background-position: center center;
   background-image: url(img/ico/ico_mail.jpg);
   position: absolute;
   top: 50%;
@@ -87,13 +89,13 @@ header > .container{
 }
 
 /*トップ*/
-.area_top_view{
+.area_top_view {
   background-image: url(img/bg/bg_view2.jpg);
   background-size: cover;
   background-position: center center;
 }
 
-.area_top_view > .container{
+.area_top_view>.container {
   height: 700px;
   display: flex;
   flex-direction: column;
@@ -101,114 +103,114 @@ header > .container{
   justify-content: center;
 }
 
-.area_top_view img{
+.area_top_view img {
   height: 100px;
 }
 
 /*エリア_ホーム*/
-[class*="area_home"]{
+[class*="area_home"] {
   padding: 70px 0;
 }
 
-.head_home{
+.head_home {
   display: flex;
   justify-content: center;
   margin: 0 0 60px 0;
 }
 
-.head_home .ttl{
-  font: 400 56px/1em 'futura PT','noto sans japanese',sans-serif;
+.head_home .ttl {
+  font: 400 56px/1em 'futura PT', 'noto sans japanese', sans-serif;
 }
 
 /*2分割レイアウト*/
-.layout_2_div{
+.layout_2_div {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.layout_2_div > div{
+.layout_2_div>div {
   width: 45%;
 }
 
 /*テキスト_ホーム*/
-.text_home{
-margin: 0 0 0 110px;
+.text_home {
+  margin: 0 0 0 110px;
 }
 
-.text_home .ttl{
-  font: 500 32px/1em 'futura PT','noto sans japanese',sans-serif;
+.text_home .ttl {
+  font: 500 32px/1em 'futura PT', 'noto sans japanese', sans-serif;
 }
 
-.text_home .discription{
-  font: 300 20px/1.8em 'futura PT','noto sans japanese',sans-serif;
+.text_home .discription {
+  font: 300 20px/1.8em 'futura PT', 'noto sans japanese', sans-serif;
 }
 
 /*ONUPROFILEとは*/
-.area_home_about img{
-  transform:scale(0.9);
+.area_home_about img {
+  transform: scale(0.9);
   transform-origin: center center;
 }
 
 /*バックグラウンド*/
-.bg_black{
+.bg_black {
   color: #FFF;
   background: black;
 }
 
 /*特徴*/
-.list_feature{
-  display:flex;
+.list_feature {
+  display: flex;
   flex-wrap: wrap;
-  padding:0%;
-  margin:0 -20px;
+  padding: 0%;
+  margin: 0 -20px;
 }
 
-.list_feature > li{
+.list_feature>li {
   width: 33.3333%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.list_feature img{
+.list_feature img {
   width: 90px;
   height: 90px;
-  margin:0 0 40px 0;
+  margin: 0 0 40px 0;
 }
 
-.list_feature .ttl{
-  font :600 28px/1em 'futura PT','noto sans japanese',sans-serif;
+.list_feature .ttl {
+  font: 600 28px/1em 'futura PT', 'noto sans japanese', sans-serif;
   margin: 40px 0 60px;
 }
 
-.list_feature .discription{
-  font :300 16px/2em 'noto sans japanese',sans-serif;
+.list_feature .discription {
+  font: 300 16px/2em 'noto sans japanese', sans-serif;
 }
 
 /*フッター*/
-footer > .container{
+footer>.container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.link:hover{
-  color:#849ba1;
+.link:hover {
+  color: #849ba1;
   transition: all .3s;
 }
 
-.btn_ico_mail:hover{
-  opacity:0.8;
+.btn_ico_mail:hover {
+  opacity: 0.8;
 }
 
 .btn_ico_mail:active {
-	-webkit-transform: translate(0,2px);
-	-moz-transform: translate(0,2px);
-	transform: translate(0,2px);
-	border-bottom:none;
-	}
+  -webkit-transform: translate(0, 2px);
+  -moz-transform: translate(0, 2px);
+  transform: translate(0, 2px);
+  border-bottom: none;
+}
 
-  .description{
-    text-align: center;
-  }
+.description {
+  text-align: center;
+}
